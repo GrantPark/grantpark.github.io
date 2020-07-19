@@ -1,8 +1,6 @@
-# GrantPark.org
+## Grant Park News
 
-GPNA public splash page
-
-Logo Update - [myfonts.com](https://www.myfonts.com/fonts/alit-design/rumble-brave-vintage-fonts/regular/)
-
-
-https://github.com/Grant-Park-Neighborhood-Association
+Sunburst logo refresh - [myfonts.com](https://www.myfonts.com/fonts/alit-design/rumble-brave-vintage-fonts/regular/)
+<!--
+[GitHub](https://github.com/GrantPark)
+-->

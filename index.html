@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html;">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+<title>GrantPark.org</title>
+<link type="text/css" href="../localsite/css/base.css" rel="stylesheet" />
+<script type="text/javascript" src="../community/js/d3/d3.v5.min.js"></script>
+<script type="text/javascript" src="../localsite/js/jquery/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../localsite/js/localsite.js"></script>
+<script type="text/javascript" src="../localsite/js/showdown.min.js"></script>
+<script type="text/javascript" src="../community/js/common/navigation.js"></script>
+<script>
+	param.titleArray = ["Grant Park"," Neighborhood Association"]
+	param.footer = "/localsite/footer.html"
+</script>
+<style>
+	.upperIcons { display: none; }
+	#logoholder { background-image: none !important; margin-left:0px !important; }
+	#headerSiteTitle { font-size: 20px !important; }
+	.pageColumnTitle { position:absolute; bottom:0px; background-color: rgba(255, 255, 255, 0.7); margin-bottom:0px;}
+</style>
+</head>
+
+<body>
+<div class="hideMobile" style="background:#fff; min-height:150px; width:100%">
+	
+	<div class="herocenter hideMobile" style="position: absolute; z-index:2;">
+		<div style="border:0px solid #fff; display: inline-block;padding:20px; margin-top:-140px; background-color: rgba(255,255,255,0.7)">
+	  		<img src="img/logo/gpna-rect.png" style="width:100%;max-width:250px; opacity:.95;" />
+	  	</div>
+	  </div>
+
+	<div class="lazy bgimg" data-src="img/hero/2018/flower-bed.jpg">
+		<img src="img/hero/2018/flower-bed.jpg" style="opacity:0;width:100%">
+	</div>
+</div>
+<div class="showMobile" style="text-align: center">
+	<img src="img/logo/gpna-rect.png"  style="width:250px; opacity:.95; margin-top:30px; margin-left:30px" />
+</div>
+
+<div class="content contentpadding">
+
+	<div class="pageColumns">
+	    <div class="pageColumn">
+	      <div class="pageColumnInside">
+	          <div id="readmeDiv"></div>
+	      </div>
+	    </div>
+	    <div class="pageColumn">
+	      <div class="pageColumnInside">
+	        <div id="eventsDiv"></div>
+	      </div>
+	    </div>
+	    <div class="pageColumn">
+	      <div class="pageColumnInside">
+	        <div id="agendasDiv"></div>
+	      </div>
+	    </div>
+	</div>
+	<div style="clear:both"></div>
+</div>
+<div style="clear:both"></div>
+<br>
+
+<div style="background-color: #fff">
+	<div class="content contentpadding" style="text-align: center">
+		<h3>Some might say we're a bunch of busy bees, it's true!</h3>
+		<div class="pageColumns">
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle" style="margin-bottom:18px">Stephanie Warner</div>
+		        <img src="img/logo/bees/bee1.jpg" /><br>
+		      </div>
+		    </div>
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle">Eliza Adams</div>
+		        <img src="img/logo/bees/bee2.jpg" style="width:100%; max-width:210px; margin-top:30px" />
+		      </div>
+		    </div>
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle">Michelle Botwinick</div>
+		        <img src="img/logo/bees/bee3.jpg" />
+		      </div>
+		    </div>
+		    <div style="clear:both"></div>
+
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle">Laura Keen</div>
+		          <img src="img/logo/bees/bee4.jpg" />
+		      </div>
+		    </div>
+		    <div class="pageColumn hideMobile">
+		      <div class="pageColumnInside">
+		        <img src="img/logo/gpna-rect.png" style="width:100%; max-width:210px; margin:50px 0 0 5px" />
+		      </div>
+		    </div>
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle">Paul Simo</div>
+		        <img src="img/logo/bees/bee5.png" style="width:100%; max-width:170px; margin-top:12px" />
+		      </div>
+		    </div>
+		    <div style="clear:both"></div>
+
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	  <div class="pageColumnTitle">Rick Hudson</div>
+		          <img src="img/logo/bees/bee6.png"  />
+		      </div>
+		    </div>
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle">Chris Newman</div>
+		        <img src="img/logo/bees/bee7.jpg" />
+		      </div>
+		    </div>
+		    <div class="pageColumn">
+		      <div class="pageColumnInside">
+		      	<div class="pageColumnTitle">This could bee you!</div>
+		        <img src="img/logo/bees/bee8.png" style="width:100%;max-width:150px;margin:35px" />
+		      </div>
+		    </div>
+		</div>
+	</div>
+</div>
+
+<script>
+    loadMarkdown("README.md", "readmeDiv", "_parent");
+    loadMarkdown("events.md", "eventsDiv", "_parent");
+    loadMarkdown("agendas.md", "agendasDiv", "_parent");
+</script>
+
+<img class="lazy" data-src="img/hero/2018/flower-bed.jpg" style="opacity:0.7;width:100%"><br>
+
+<div id="footer"></div>
+
+</body>
+</html>
