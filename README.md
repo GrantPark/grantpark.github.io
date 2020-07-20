@@ -1,6 +1,8 @@
 ## Grant Park News
 
-Sunburst logo refresh - [myfonts.com](https://www.myfonts.com/fonts/alit-design/rumble-brave-vintage-fonts/regular/)
+[Latest News](https://gpna.org/)
 <!--
+Sunburst logo refresh - [myfonts.com](https://www.myfonts.com/fonts/alit-design/rumble-brave-vintage-fonts/regular/)
+
 [GitHub](https://github.com/GrantPark)
 -->
