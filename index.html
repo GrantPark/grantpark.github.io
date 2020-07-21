@@ -62,6 +62,23 @@
 	      </div>
 	    </div>
 	</div>
+	<div class="pageColumns">
+	    <div class="pageColumn">
+	      <div class="pageColumnInside">
+	          <div id="restaurantsDiv"></div>
+	      </div>
+	    </div>
+	    <div class="pageColumn">
+	      <div class="pageColumnInside">
+	        <div id="businessesDiv"></div>
+	      </div>
+	    </div>
+	    <div class="pageColumn">
+	      <div class="pageColumnInside">
+	        <div id="contactDiv"></div>
+	      </div>
+	    </div>
+	</div>
 	<div style="clear:both"></div>
 </div>
 <div style="clear:both"></div>
@@ -134,13 +151,20 @@
 
 <script>
     loadMarkdown("README.md", "readmeDiv", "_parent");
-    loadMarkdown("events.md", "eventsDiv", "_parent");
-    loadMarkdown("agendas.md", "agendasDiv", "_parent");
+    loadMarkdown("buckets/events.md", "eventsDiv", "_parent");
+    loadMarkdown("buckets/agendas.md", "agendasDiv", "_parent");
+    loadMarkdown("buckets/restaurants.md", "restaurantsDiv", "_parent");
+    loadMarkdown("buckets/businesses.md", "businessesDiv", "_parent");
+    loadMarkdown("buckets/contact.md", "contactDiv", "_parent");
 </script>
 
 <img class="lazy" data-src="img/hero/2018/flower-bed.jpg" style="opacity:0.7;width:100%"><br>
 
 <div id="footer"></div>
+
+<div class="content contentpadding" style="float:right">
+	<a href="https://github.com/GrantPark">GitHub</a>
+</div>
 
 </body>
 </html>
