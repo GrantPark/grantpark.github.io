@@ -1,8 +1,7 @@
-## Grant Park News
+## Grant Park Neighborhood Association
 
-[Latest news](https://gpna.org/)
+[Join our enews at GPNA.org](https://gpna.org/)  
+
 <!--
-Sunburst logo refresh - [myfonts.com](https://www.myfonts.com/fonts/alit-design/rumble-brave-vintage-fonts/regular/)
-
-[GitHub](https://github.com/GrantPark)
+Logo font - [myfonts.com](https://www.myfonts.com/fonts/alit-design/rumble-brave-vintage-fonts/regular/)
 -->
